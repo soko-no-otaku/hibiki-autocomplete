@@ -8,12 +8,7 @@
       "matches": [
         "https://vcms-api.hibiki-radio.jp/inquiries/new?program_id=*"
       ],
-      "css": [
-        "css/bootstrap.min.css"
-      ],
       "js": [
-        "js/jquery-3.1.1.min.js",
-        "js/bootstrap.min.js",
         "js/content_script.js"
       ]
     }
