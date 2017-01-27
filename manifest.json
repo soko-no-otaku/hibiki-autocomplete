@@ -1,0 +1,25 @@
+{
+  "name": "hibiki-autocomplete",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "響ラジオステーションのお便り投稿フォームの入力支援",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://vcms-api.hibiki-radio.jp/inquiries/new?program_id=*"
+      ],
+      "css": [
+        "css/bootstrap.min.css"
+      ],
+      "js": [
+        "js/jquery-3.1.1.min.js",
+        "js/bootstrap.min.js",
+        "bookmarklet.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage"
+  ],
+  "options_page": "options.html"
+}
