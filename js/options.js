@@ -33,4 +33,5 @@ function saveChanges() {
   chrome.storage.local.set(listenerInfo, function() {});
 
   alert("保存しました。");
+  window.open('about:blank', '_self').close();
 };
