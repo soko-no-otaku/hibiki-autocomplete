@@ -14,7 +14,7 @@
       "js": [
         "js/jquery-3.1.1.min.js",
         "js/bootstrap.min.js",
-        "bookmarklet.js"
+        "js/content_script.js"
       ]
     }
   ],
